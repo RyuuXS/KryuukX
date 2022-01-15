@@ -65,7 +65,7 @@ RUN apt update && apt upgrade -y && \
 RUN pip3 install --upgrade pip setuptools
 
 # Copy Python Requirements to /root/GreyCilik 
-RUN git clone -b shiken https://github.com/grey423/GreyCilik /root/GreyCilik
+RUN git clone -b shiken https://github.com/RyuuXS/KryuukX /root/GreyCilik
 WORKDIR /root/GreyCilik
 
 #Copy config file to /root/GreyCilik/GreyCilik
