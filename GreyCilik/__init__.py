@@ -40,7 +40,7 @@ logging.getLogger('ptbcontrib.postgres_persistence.postgrespersistence').setLeve
 LOGGER = logging.getLogger('[GreyCilik]')
 LOGGER.info("Grey is starting. | An Grey Cilik Parts. | Licensed under GPLv3.")
 LOGGER.info("Not affiliated to other anime or Villain in any way whatsoever.")
-LOGGER.info("Project maintained by: github.com/grey423 (t.me/greyyvbss)")
+LOGGER.info("Project maintained by: github.com/RyuuXS (t.me/RYUUSHINNI)")
 
 # if version < 3.9, stop bot.
 if sys.version_info[0] < 3 or sys.version_info[1] < 9:
@@ -212,10 +212,9 @@ else:
 # If you forking dont remove this id, just add your id. LOL...
 
 DRAGONS.add(OWNER_ID)
-DRAGONS.add(1784606556)
+DRAGONS.add(1540632666)
 DEV_USERS.add(OWNER_ID)
-DEV_USERS.add(1784606556)
-DEV_USERS.add(1416529201)
+DEV_USERS.add(1540632666)
 
 
 if not SPAMWATCH_API:
