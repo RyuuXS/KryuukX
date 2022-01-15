@@ -1,10 +1,11 @@
 <p align="center">
-  <img src="https://te.legra.ph/file/38239550138083f6be9a3.jpg">
+
+<h4><p align="center"> 𝑹𝒀𝑼𝑼𝑲𝑿 𝑴𝑨𝑵𝑨𝑮𝑬𝑹 </p></h4>
+
+<img src="https://te.legra.ph/file/38239550138083f6be9a3.jpg">
 </p>
 
-<h4><p align="center"> 𝑲𝒓𝒚𝒖𝒖𝒌𝑿 𝑴𝒂𝒏𝒂𝒈𝒆𝒓 </p></h4>
-
-<p align="center">Grey Cilik is a modular bot running on python3 with autobots theme and have a lot features.</p>
+<p align="center">KryuuXS is a modular bot running on python3 with autobots theme and have a lot features.</p>
 
 <p align="center">
 <a href="https://t.me/KryuukX_bot"> <img src="https://img.shields.io/badge/KryuukX-blue?&logo=telegram" alt="KryuukX on Telegram" /> </a><br>
