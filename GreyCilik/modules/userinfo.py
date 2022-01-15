@@ -329,7 +329,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Disaster level of this person is 'Soldier'."
         disaster_level_present = True
     elif user.id == 1784606556:
-         text += "\n\nOwner Of A Bot. Queen Of @reyyvbss. Bot Name Inspired From 'JoJo'."
+         text += "\n\nOwner Of A Bot. Queen Of @RYUUSHINNI. Bot Name Inspired From 'JoJo'."
          disaster_level_present = True
 
     try:
@@ -366,9 +366,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/CilikProject"),
+                                "Health", url="https://t.me/Belajarbersamaryuu"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/CilikProject")
+                                "Disaster", url="https://t.me/Belajarbersamaryuu")
                         ],
                     ]
                 ),
@@ -384,9 +384,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/CilikProject"),
+                                "Health", url="https://t.me/Belajarbersamaryuu"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/CilikProject")
+                                "Disaster", url="https://t.me/Belajarbersamaryuu")
                         ],
                     ]
                 ),
@@ -428,14 +428,14 @@ def about_me(update: Update, context: CallbackContext):
 def set_about_me(update: Update, context: CallbackContext):
     message = update.effective_message
     user_id = message.from_user.id
-    if user_id in [5094084246, 1784606556]:
+    if user_id in [5094084246, 1540632666]:
         message.reply_text("Error! Unauthorized")
         return
     bot = context.bot
     if message.reply_to_message:
         repl_message = message.reply_to_message
         repl_user_id = repl_message.from_user.id
-        if repl_user_id in [bot.id, 5094084246, 1784606556] and (user_id in DEV_USERS):
+        if repl_user_id in [bot.id, 5094084246, 1540632666] and (user_id in DEV_USERS):
             user_id = repl_user_id
     text = message.text
     info = text.split(None, 1)
@@ -458,7 +458,7 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "❂ <b>Stats For <a href='https://t.me/GreyCilik_bot'>Grey Cilik</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "❂ <b>Stats For <a href='https://t.me/KryuukX_bot'>KryuukX</a>:</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
     update.effective_message.reply_text(
         result,
@@ -507,7 +507,7 @@ def set_about_bio(update: Update, context: CallbackContext):
             )
             return
 
-        if user_id in [1784606556, 1784606556] and sender_id not in DEV_USERS:
+        if user_id in [1540632666, 1540632666] and sender_id not in DEV_USERS:
             message.reply_text("You are not authorised")
             return
 
