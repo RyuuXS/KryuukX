@@ -1,5 +1,5 @@
 {
-      "name": "Grey Cilik",
+      "name": "KryuukX Mananager",
       "description": "A Powerful  Telegram group management bot with autobots theme.",
       "keywords": [
          "telegram",
@@ -9,8 +9,8 @@
          "Prime Mega"
       ],
     
-   "logo":    "https://telegra.ph/file/09f3f39dd43de5b66d538.jpg",  
-   "repository": "https://github.com/grey423/GreyCilik",
+   "logo":    "https://te.legra.ph/file/07f88be3fa01dc0a33d3e.jpg",  
+   "repository": "https://github.com/RyuuXS/KryuukX",
    "addons": [
           {
          "options": {
@@ -34,12 +34,12 @@
          "value": ""
       },
       "API_ID": {
-         "description": "Get API_ID from my.telegram.org or @PrimeApiBot, used for telethon based modules.",
+         "description": "Get API_ID from my.telegram.org , used for telethon based modules.",
          "required": true,
          "value": ""
       },
       "API_HASH": {
-         "description": "Get API_HASH from my.telegram.org or @PrimeApiBot, used for telethon based modules.",
+         "description": "Get API_HASH from my.telegram.org , used for telethon based modules.",
          "required": true,
          "value": ""
       },    
@@ -69,7 +69,7 @@
       },
       "BOT_USERNAME": {
          "description": "username of your bot without the @",
-         "value": "GreyCilikbot"
+         "value": "KryuukX_bot"
       },
 
       "BOT_ID": {
@@ -79,12 +79,12 @@
 
       "OWNER_USERNAME": {
          "description": "Your username without the @",
-         "value": "greyvbss"
+         "value": "Ryuushin"
       },
       "SUPPORT_CHAT": {
          "description": "Your Telegram support group chat username where your users will go and bother you with shit But be like: MyGroupChatUsernameBlah. If this ever points to masha support than consider you made an enemy.",
          "required": true,
-         "value": "greynihsupport"
+         "value": "helpforRYUU"
       },
       "MONGO_DB_URI": {
          "description": "Required for database connections.",
