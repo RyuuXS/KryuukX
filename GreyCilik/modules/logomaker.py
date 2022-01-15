@@ -113,7 +113,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Grey Cililk](https://t.me/GreyCilik_bot)",
+            caption="Logo by [KryuukX](https://t.me/KryuukX_bot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -196,7 +196,7 @@ async def logo_(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Grey Cilik](https://t.me/GreyCilik_bot)",
+            caption="Logo by [KryuukX](https://t.me/KryuukX_bot)",
             force_document=False,
         )
         os.remove(flnme)
@@ -279,7 +279,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Grey Cililk](https://t.me/GreyCilik_bot)",
+            caption="Logo by [KryuukX](https://t.me/KryuukX_bot)",
             force_document=False,
         )
         os.remove(flnme)
