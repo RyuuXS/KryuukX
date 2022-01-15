@@ -81,15 +81,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
- *ʜᴇʟʟᴏ ᴀᴋᴜ ɢʀᴇʏ ᴄɪʟɪᴋ*
-ɢʀᴇʏ ᴄɪʟɪᴋ ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴀɴᴀɢᴇʀ + ᴍᴜꜱɪᴄ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴀɪᴋ.
-ᴛᴇᴋᴀɴ /help . ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ [Grey](t.me/greyyvbss).
+ *ʜᴇʟʟᴏ ᴀᴋᴜ ᴋʀʏᴜᴜᴋx*
+Kʀʏᴜᴜᴋx ᴀᴅᴀʟᴀʜ ʙᴏᴛ ᴍᴀɴᴀɢᴇʀ + ᴍᴜꜱɪᴄ ᴜɴᴛᴜᴋ ᴍᴇɴɢᴇʟᴏʟᴀ ɢʀᴜᴘ ᴀɴᴅᴀ ᴅᴇɴɢᴀɴ ʙᴀɪᴋ.
+ᴛᴇᴋᴀɴ /help . ᴍᴀɪɴᴛᴀɴᴇᴅ ʙʏ [ryuushin](t.me/RYUUSHINNI).
 """
 
 buttons = [
         [
         InlineKeyboardButton(
-            text="➕️ Add Grey Cilik to your group ➕️", url="t.me/GreyCilik_bot?startgroup=true"
+            text="➕️ Add KryuukX to your group ➕️", url="t.me/KryuukX_bot?startgroup=true"
         ),
     ],
     [
@@ -109,10 +109,10 @@ buttons = [
 HELP_STRINGS = """
 Click on the button bellow to get description about specifics command."""
 
-PRIME_IMG = "https://telegra.ph/file/6c0dbd0d49bb5fd53d7fe.jpg"
+PRIME_IMG = "https://te.legra.ph/file/20546b0718eff5862030f.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @greyyvbss \
+ You can support the project by contacting @RYUUSHINNI \
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -228,7 +228,7 @@ def start(update: Update, context: CallbackContext):
             )
     else:
         update.effective_message.reply_text(
-            f"<b>Hi I'm Grey Cilik!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
+            f"<b>Hi I'm KryuukX!</b>\n<b>Started working since:</b> <code>{uptime}</code>",
             parse_mode=ParseMode.HTML
        )
 
@@ -359,15 +359,15 @@ def prime_about_callback(update, context):
     query = update.callback_query
     if query.data == "prime_":
         query.message.edit_text(
-            text="๏ I'm *Grey Cilik*, a powerful group management bot built to help you manage your group easily."
+            text="๏ I'm *KryuukX*, a powerful group management bot built to help you manage your group easily."
             "\n• I can restrict users."
             "\n• I can greet users with customizable welcome messages and even set a group's rules."
             "\n• I have an advanced anti-flood system."
             "\n• I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc."
             "\n• I have a note keeping system, blacklists, and even predetermined replies on certain keywords."
             "\n• I check for admins' permissions before executing any command and more stuffs"
-            "\n\n_GreyCilik's licensed under the GNU General Public License v3.0_"
-            "\n\n Click on button bellow to get basic help for GreyCilik.",
+            "\n\n_KryuukX's licensed under the GNU General Public License v3.0_"
+            "\n\n Click on button bellow to get basic help for KryuukX.",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
@@ -407,7 +407,7 @@ def prime_about_callback(update, context):
     elif query.data == "prime_admin":
         query.message.edit_text(
             text=f"*๏ Let's make your group bit effective now*"
-            "\nCongragulations, Grey Cilik now ready to manage your group."
+            "\nCongragulations, KryuukX now ready to manage your group."
             "\n\n*Admin Tools*"
             "\nBasic Admin tools help you to protect and powerup your group."
             "\nYou can ban members, Kick members, Promote someone as admin through commands of bot."
@@ -434,14 +434,14 @@ def prime_about_callback(update, context):
         )
     elif query.data == "prime_support":
         query.message.edit_text(
-            text="*๏ GreyCilik support chats*"
+            text="*๏ KryuukX support chats*"
             "\nJoin My Support Group/Channel for see or report a problem on GreyCilik.",
             parse_mode=ParseMode.MARKDOWN,
             reply_markup=InlineKeyboardMarkup(
                 [
                  [
-                    InlineKeyboardButton(text="Support", url="t.me/CilikSupport"),
-                    InlineKeyboardButton(text="Updates", url="https://t.me/CilikProject"),
+                    InlineKeyboardButton(text="Support", url="t.me/helpforRYUU"),
+                    InlineKeyboardButton(text="Updates", url="https://t.me/Belajarbersamaryuu"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -462,6 +462,7 @@ def prime_about_callback(update, context):
                  [
                     InlineKeyboardButton(text="Tonic", url="t.me/Bukan_guudlooking"),
                     InlineKeyboardButton(text="Grey", url="t.me/greyyvbss"),
+                    InlineKeyboardButton(text="RyuuShin", url="t.me/RYUUSHINNI"),
                  ],
                  [
                     InlineKeyboardButton(text="Go Back", callback_data="prime_"),
@@ -739,7 +740,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1784606556:
+        if OWNER_ID != 1540632666:
             update.effective_message.reply_text(
                 "I'm free for everyone ❤️ If you wanna make me smile, just join"
                 "[My Channel]({})".format(DONATION_LINK),
@@ -788,7 +789,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**Grey Cilik Started!**
+                f"""**KryuukX Started!**
 
 **Python:** `{memek()}`
 **Telegram Library:** `v{peler}`""",
