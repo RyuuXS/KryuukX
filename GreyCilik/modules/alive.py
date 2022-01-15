@@ -9,16 +9,16 @@ from GreyCilik.events import register
 from GreyCilik import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/760e7c0afaf6ba3df8ce7.jpg"
+PHOTO = "https://te.legra.ph/file/20546b0718eff5862030f.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  GREY = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Grey Cilik.** \n\n"
-  GREY += "⚪ **I'm Working Properly** \n\n"
-  GREY += f"⚪ **My Master : [Grey](https://t.me/greyyvbss)** \n\n"
-  GREY += f"⚪ **Library Version :** `{telever}` \n\n"
-  GREY += f"⚪ **Telethon Version :** `{tlhver}` \n\n"
-  GREY += f"⚪ **Pyrogram Version :** `{pyrover}` \n\n"
+  GREY = f"**Hi [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm KryuukX.** \n\n"
+  GREY += f"𖣘 **I'm Working Properly** \n\n"
+  GREY += f"𖣘 **My Master : [RyuuShin](https://t.me/RYUUSHINNI)** \n\n"
+  GREY += f"𖣘 **Library Version :** `{telever}` \n\n"
+  GREY += f"𖣘 **Telethon Version :** `{tlhver}` \n\n"
+  GREY += f"𖣘 **Pyrogram Version :** `{pyrover}` \n\n"
   GREY += "**Thanks For Adding Me Here ❤️**"
-  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/GreyCilik_bot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/CilikSupport")]]
+  BUTTON = [[Button.url("ʜᴇʟᴘ​", "https://t.me/KryuukX_bot?start=help"), Button.url("sᴜᴘᴘᴏʀᴛ​", "https://t.me/helpforRYUU")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=GREY,  buttons=BUTTON)
